@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-10-10T17:56:10Z" name="Suite" finished-at="2020-10-10T17:57:20Z" duration-ms="69997">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runners.RunCuke@587e5365]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2020-10-10T17:56:10Z" name="Test" finished-at="2020-10-10T17:57:20Z" duration-ms="69997">
+      <class name="runners.RunCuke">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:runners.RunCuke@587e5365]" started-at="2020-10-10T23:26:10Z" name="setUpClass" finished-at="2020-10-10T23:26:10Z" duration-ms="301" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:runners.RunCuke@587e5365]" started-at="2020-10-10T23:26:10Z" name="setup" finished-at="2020-10-10T23:26:11Z" duration-ms="298" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runners.RunCuke@587e5365]" started-at="2020-10-10T23:26:11Z" name="feature" description="Runs Cucumber Feature" data-provider="features" finished-at="2020-10-10T23:26:35Z" duration-ms="23936" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[To validate Audible CategoryPage feature is working]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runners.RunCuke@587e5365]" started-at="2020-10-10T23:26:35Z" name="feature" description="Runs Cucumber Feature" data-provider="features" finished-at="2020-10-10T23:26:44Z" duration-ms="9186" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[To validate Audible HomePage feature is working]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runners.RunCuke@587e5365]" started-at="2020-10-10T23:26:44Z" name="feature" description="Runs Cucumber Feature" data-provider="features" finished-at="2020-10-10T23:27:01Z" duration-ms="17357" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[To validate Audible LoginPage feature is working]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runners.RunCuke@587e5365]" started-at="2020-10-10T23:27:01Z" name="feature" description="Runs Cucumber Feature" data-provider="features" finished-at="2020-10-10T23:27:20Z" duration-ms="18671" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[To validate Audible UserPage feature is working]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:runners.RunCuke@587e5365]" started-at="2020-10-10T23:27:20Z" name="tearDownClass" finished-at="2020-10-10T23:27:20Z" duration-ms="65" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- runners.RunCuke -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
